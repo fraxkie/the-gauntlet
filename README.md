@@ -87,6 +87,11 @@ goes from -0.35 to -0.001 while the marginal statistics survive.
 
 ## Findings — 21 years, 13 liquid ETFs
 
+*Provenance: every figure below was produced by the engine in this repo, run over daily
+bars from 2005 to 2026 on 13 liquid US ETFs, fetched with `getdata.py` (yfinance). No
+number here is an estimate, a quoted result, or carried over from anywhere else — each
+one is the output of a test in this codebase, and re-runnable from a clean clone.*
+
 ### What died
 
 | Family | Verdict | Cause of death |
