@@ -1,0 +1,30 @@
+# Market data — regenerate with getdata.py / getstocks.py / getcrypto.py
+*.csv
+!batch_results.csv
+!batch_results_panic_by_asset.csv
+
+# Secrets
+.env
+.env.*
+*.pem
+client_secret*.json
+token*.json
+
+# Runtime state & logs
+*.log
+*_state.json
+paper_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
