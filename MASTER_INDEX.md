@@ -18,7 +18,6 @@ python -m tests.test_core          # prove the foundations (run all 5 tests)
 python run_macd.py                 # see a strategy get killed as beta
 python probability/test_volatility.py   # prove volatility IS predictable
 python run_voltarget.py            # volatility targeting (real risk benefit)
-python -c "see dashboard"          # open dashboard.html in a browser
 ```
 
 ═══════════════════════════════════════════════════════════════════════════════
@@ -63,11 +62,6 @@ Strategy runners (all families tested → all killed):
 5. **Market regimes: detectable** — an HMM found every crisis from returns alone.
 6. Volatility forecasting → steadier risk via vol-targeting; regime knowledge →
    sharper forecasts. The real edges are in RISK and STRUCTURE, not direction.
-
-## DASHBOARD
-dashboard.html — five live visualizations: the regime band under 21y of price
-(crises light up red), vol forecast tracking realized vol, vol-targeting equity
-curves, the MCPT noise distribution, and the calibration reliability diagram.
 
 ## METHODS
 After Timothy Masters (permutation tests), López de Prado (multiple testing),

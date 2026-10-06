@@ -162,12 +162,14 @@ python run_voltarget.py     # volatility targeting — a real risk benefit
 
 `MASTER_INDEX.md` maps every file to the question it answers.
 
-## Dashboard
+## Results, visually
 
-Open `dashboard.html` — the regime band under 21 years of price history (crises
-light up red), forecast vs. realized volatility, vol-targeted equity curves, the
-MCPT permutation histogram with the real-strategy line against the noise
-distribution, and the calibration reliability diagram.
+<!-- PNG goes here: ![MCPT permutation distribution](docs/mcpt.png) -->
+
+*Charts pending.* The figure worth looking at first is the MCPT permutation
+histogram — the noise distribution from a thousand shuffled universes, with the
+real strategy's score marked on it. When the real score sits inside that
+distribution, the edge was never there.
 
 ---
 
